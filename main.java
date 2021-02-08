@@ -1,6 +1,6 @@
 public class main {
   public static void main(String[] args) {
-    int dayCount = 0;
+    System.out.println("This plugin is not ready yet, please check back later!");
   }
   
   static void summerSeason() {
@@ -20,6 +20,8 @@ public class main {
   }
   
  static void dateTracker() { 
+   int dayCount = 0;
+   
     if (dayCount >= 365) {
       int dayCount = 0
     } else {
