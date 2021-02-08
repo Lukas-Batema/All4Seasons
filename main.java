@@ -1,22 +1,22 @@
 public class main {
   public static void main(String[] args) {
     int dayCount = 0;
+  }
+  
+  static void summerSeason() {
+    System.out.println("This season is not ready yet, please check back later!");
+  }
     
-    static void summer() {
-      System.out.println("This season is not ready yet, please check back later!");
-    }
+  static void springSeason() {
+    System.out.println("This season is not ready yet, please check back later!");
+  }
     
-    static void spring() {
-      System.out.println("This season is not ready yet, please check back later!");
-    }
+  static void autumnSeason() {
+    System.out.println("This season is not ready yet, please check back later!");   
+  }
     
-    static void autumn() {
-      System.out.println("This season is not ready yet, please check back later!");
-    }
-    
-    static void winter() {
-      System.out.println("This season is not ready yet, please check back later!");
-    }
+  static void winterSeason() {
+    System.out.println("This season is not ready yet, please check back later!");
   }
   
  static void dateTracker() { 
@@ -24,14 +24,13 @@ public class main {
       int dayCount = 0
     } else {
       if (dayCount <= 92 && >=0) {
-        summer()
+        summerSeason();
       } else if (dayCount <= 184 && > 92) {
-        spring()
+        springSeason();
       } else if (dayCount <= 275 && > 184) {
-        autumn()
+        autumnSeason();
       } else if (dayCount <= 365 && > 275) {
-        winter()
+        winterSeason();
       }
     }
-  }
-}
+ }
