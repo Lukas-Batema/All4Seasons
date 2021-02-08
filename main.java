@@ -23,7 +23,7 @@ public class main {
   }
     
   static void springSeason() {
-    while (dayCount >= 93 && < 184) {
+    while (dayCount > 92 && <= 184) {
       // When at the highest dayLength, the day gains a total of 0.15 seconds.
       double dayLength = dayLength + 0.05;
       
@@ -33,7 +33,7 @@ public class main {
   }
     
   static void autumnSeason() {
-    while (dayCount >= 185 && <= 275) {
+    while (dayCount > 184 && <= 275) {
       // When at the lowest dayLength, the day gains a total of 3 seconds.
       int dayLength = dayLength - 5;
       
@@ -43,12 +43,12 @@ public class main {
   }
     
   static void winterSeason() {
-    while (dayCount >= 80 && <= 92) {
-      // When at the lowest dayLength, the day gains a total of 3 seconds.
-      int dayLength = dayLength - 5;
+    while (dayCount > 184 && <= 365) {
+      // When at the lowest dayLength, the day gains a total of 30 seconds.
+      int dayLength = dayLength - 0.05;
       
-      // When at the highest nightLength, the night loses a total of 3 seconds.
-      int nightLength = nightLength + 5;
+      // When at the highest nightLength, the night loses a total of 30 seconds.
+      int nightLength = nightLength + 0.05;
     }
   }
   
@@ -58,11 +58,11 @@ public class main {
     if (dayCount >= 365) {
       int dayCount = 0;
     } else {
-      if (dayCount >= 0 && <=92) {
+      if (dayCount >= 0 && <=91) {
         summerSeason();
-      } else if (dayCount > 92 && <= 184) {
+      } else if (dayCount > 91 && <= 183) {
         springSeason();
-      } else if (dayCount > 184 && <= 275) {
+      } else if (dayCount > 183 && <= 275) {
         autumnSeason();
       } else if (dayCount > 275 && <= 365) {
         winterSeason();
