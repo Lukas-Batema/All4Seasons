@@ -2,7 +2,8 @@ package lukas-batema.mcje.plugin
 
 public class main {
   public static void main(String[] args) {
-    // Empty for now, will add more later.
+    // Starts the season cycle, loops infinitly unless the plugin is removed or crashes.
+    summerSeason();
   }
   
   static void summerSeason() {
