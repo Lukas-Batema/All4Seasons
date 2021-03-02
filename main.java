@@ -1,3 +1,5 @@
+package lukas-batema.mcje.plugin
+
 public class main {
   public static void main(String[] args) {
     dateTracker();
