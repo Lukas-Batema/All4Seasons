@@ -1,4 +1,4 @@
-package lukas-batema.mcje.plugin
+package lukasbatema.mcje.plugin;
 
 public class main {
   public static void main(String[] args) {
@@ -21,10 +21,10 @@ public class main {
     
     while (dayCount >= 0 && dayCount < 92) {
       // When at the highest dayLength, the day gains a total of ___ seconds.
-      double dayLength = dayLength + 0.05;
+      dayLength = dayLength + 0.05;
       
       // When at the lowest nightLength, the night loses a total of ___ seconds.
-      double nightLength = nightLength - 0.05;
+      nightLength = nightLength - 0.05;
       
       dayCount++;
     }
@@ -49,10 +49,10 @@ public class main {
     
     while (dayCount > 92 && dayCount <= 184) {
       // When at the highest dayLength, the day gains a total of ___ seconds.
-      double dayLength = dayLength + 0.05;
+      dayLength = dayLength + 0.05;
       
       // When at the lowest nightLength, the night loses a total of ___ seconds.
-      double nightLength = nightLength - 0.05;
+      nightLength = nightLength - 0.05;
       
       dayCount++;
     }
@@ -77,10 +77,10 @@ public class main {
     
     while (dayCount > 184 && dayCount <= 275) {
       // When at the lowest dayLength, the day gains a total of ___ seconds.
-      double dayLength = dayLength - 5;
+      dayLength = dayLength - 5;
       
       // When at the highest nightLength, the night loses a total of ___ seconds.
-      double nightLength = nightLength + 5;
+      nightLength = nightLength + 5;
       
       dayCount++;
     }
@@ -105,10 +105,10 @@ public class main {
     
     while (dayCount > 184 && dayCount <= 365) {
       // When at the lowest dayLength, the day gains a total of ___ seconds.
-      double dayLength = dayLength - 0.05;
+      dayLength = dayLength - 0.05;
       
       // When at the highest nightLength, the night loses a total of ___ seconds.
-      double nightLength = nightLength + 0.05;
+      nightLength = nightLength + 0.05;
       
       dayCount++;
     }
