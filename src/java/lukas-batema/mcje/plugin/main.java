@@ -27,6 +27,10 @@ public class main {
       
       dayCount++;
     }
+    
+    // Run the next season function.
+    springSeason();
+    
   }
     
   static void springSeason() {
@@ -51,6 +55,10 @@ public class main {
       
       dayCount++;
     }
+    
+    // Run the next season function.
+    autumnSeason();
+    
   }
     
   static void autumnSeason() {
@@ -75,6 +83,10 @@ public class main {
       
       dayCount++;
     }
+    
+    // Run the next season function.
+    winterSeason();
+    
   }
     
   static void winterSeason() {
@@ -99,5 +111,9 @@ public class main {
       
       dayCount++;
     }
+    
+    // Run the summerSeason() function, since winter is the last called "season".
+    summerSeason();
+    
   }
 }
