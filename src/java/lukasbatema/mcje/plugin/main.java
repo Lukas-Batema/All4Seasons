@@ -53,16 +53,18 @@ public class main {
     double totalDayCycleLength = dayLength + nightLength;
     
     // Initial dayCount (Number of days passed).
-    double dayCount = 0;
+    double dayCount = 93;
     
     while (dayCount > 92 && dayCount <= 184) {
-      // When at the highest dayLength, the day gains a total of ___ seconds.
-      dayLength = dayLength + 0.05;
+      if (dayLength + nightLength == totalDayCycleLength) {
+        // When at the highest dayLength, the day gains a total of ___ seconds.
+        dayLength = dayLength + 0.05;
       
-      // When at the lowest nightLength, the night loses a total of ___ seconds.
-      nightLength = nightLength - 0.05;
+        // When at the lowest nightLength, the night loses a total of ___ seconds.
+        nightLength = nightLength - 0.05;
       
-      dayCount++;
+        dayCount++;
+      }
     }
     
     // Run the autumnSeason() season function after the while loop finishes.
@@ -81,16 +83,18 @@ public class main {
     double totalDayCycleLength = dayLength + nightLength;
     
     // Initial dayCount (Number of days passed).
-    double dayCount = 0;
+    double dayCount = 185;
     
     while (dayCount > 184 && dayCount <= 275) {
-      // When at the lowest dayLength, the day gains a total of ___ seconds.
-      dayLength = dayLength - 0.05;
+      if (dayLength + nightLength == totalDayCycleLength) {
+        // When at the lowest dayLength, the day gains a total of ___ seconds.
+        dayLength = dayLength - 0.05;
       
-      // When at the highest nightLength, the night loses a total of ___ seconds.
-      nightLength = nightLength + 0.05;
+        // When at the highest nightLength, the night loses a total of ___ seconds.
+        nightLength = nightLength + 0.05;
       
-      dayCount++;
+        dayCount++;
+      }
     }
     
     // Run the winterSeason() season function after the while loop finishes.
@@ -109,16 +113,18 @@ public class main {
     double totalDayCycleLength = dayLength + nightLength;
     
     // Initial dayCount (Number of days passed).
-    double dayCount = 0;
+    double dayCount = 276;
     
-    while (dayCount > 184 && dayCount <= 365) {
-      // When at the lowest dayLength, the day gains a total of ___ seconds.
-      dayLength = dayLength - 0.05;
+    while (dayCount > 275 && dayCount <= 365) {
+      if (dayLength + nightLength == totalDayCycleLength) {
+        // When at the lowest dayLength, the day gains a total of ___ seconds.
+        dayLength = dayLength - 0.05;
       
-      // When at the highest nightLength, the night loses a total of ___ seconds.
-      nightLength = nightLength + 0.05;
+        // When at the highest nightLength, the night loses a total of ___ seconds.
+        nightLength = nightLength + 0.05;
       
-      dayCount++;
+        dayCount++;
+      }
     }
     
     // Run the summerSeason() function, since winterSeason() is the last called season function, after the while loop finishes.
