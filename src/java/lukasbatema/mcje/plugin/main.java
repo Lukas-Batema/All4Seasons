@@ -1,8 +1,14 @@
+// Package of this sector of this plugin.
 package lukasbatema.mcje.plugin;
+
+/* Other imported packages.
+import <package_name>;
+
+I will add/fix "import" line(s) at a later date. */
 
 public class main {
   public static void main(String[] args) {
-    // Starts the season cycle, loops infinitly unless the plugin is removed or crashes.
+    // Starts the season cycle, loops infinitly, unless the plugin is removed or untill it crashes.
     summerSeason();
   }
   
@@ -20,16 +26,18 @@ public class main {
     double dayCount = 0;
     
     while (dayCount >= 0 && dayCount < 92) {
-      // When at the highest dayLength, the day gains a total of ___ seconds.
-      dayLength = dayLength + 0.05;
+      if (dayLength + nightLength == totalDayCycleLength) {
+        // When at the highest dayLength, the day gains a total of ___ seconds.
+        dayLength = dayLength + 0.05;
       
-      // When at the lowest nightLength, the night loses a total of ___ seconds.
-      nightLength = nightLength - 0.05;
-      
-      dayCount++;
+        // When at the lowest nightLength, the night loses a total of ___ seconds.
+        nightLength = nightLength - 0.05;
+     
+        dayCount++;
+      }
     }
     
-    // Run the next season function.
+    // Run the springSeason() season function after while loop finishes.
     springSeason();
     
   }
@@ -57,7 +65,7 @@ public class main {
       dayCount++;
     }
     
-    // Run the next season function.
+    // Run the autumnSeason() season function after the while loop finishes.
     autumnSeason();
     
   }
@@ -77,15 +85,15 @@ public class main {
     
     while (dayCount > 184 && dayCount <= 275) {
       // When at the lowest dayLength, the day gains a total of ___ seconds.
-      dayLength = dayLength - 5;
+      dayLength = dayLength - 0.05;
       
       // When at the highest nightLength, the night loses a total of ___ seconds.
-      nightLength = nightLength + 5;
+      nightLength = nightLength + 0.05;
       
       dayCount++;
     }
     
-    // Run the next season function.
+    // Run the winterSeason() season function after the while loop finishes.
     winterSeason();
     
   }
@@ -113,7 +121,7 @@ public class main {
       dayCount++;
     }
     
-    // Run the summerSeason() function, since winter is the last called "season".
+    // Run the summerSeason() function, since winterSeason() is the last called season function, after the while loop finishes.
     summerSeason();
     
   }
