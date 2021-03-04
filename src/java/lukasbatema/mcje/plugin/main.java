@@ -1,13 +1,55 @@
 // Package of this sector of this plugin.
 package lukasbatema.mcje.plugin;
 
-/* Other imported packages.
+/* 
+Other imported packages.
 import <package_name>;
 
-I will add/fix "import" line(s) at a later date. */
+I will add/fix "import" line(s) at a later date.
+*/
 
 public class main {
   public static void main(String[] args) {
+    /* 
+    Commands
+    The slash before the command
+    */
+    String slash = "/";
+    
+    /*
+    Staff Commands
+    Other Staff Commands
+    */
+    String slashReload = slash + "reload";
+    String slashHelp = slash + "help";
+    String slashHelpPageOne = slash + "help 1";
+    String slashHelpSeason = slash + "help season";
+    String slashHelpRestart = slash + "help restart";
+    String slashHelpToggle = slash + "help toggle";
+    
+    // Season Staff Commands
+    String slashSeasonSummer = slash + "season summer";
+    String slashSeasonSpring = slash + "season spring";
+    String slashSeasonAutumn = slash + "season autumn";
+    String slashSeasonWinter = slash + "season winter";
+    
+    String slashRestartSeason = slash + "resart season";
+    
+    // Season Special Staff Commands
+    String slashToggleAutumnLeaves = slash + "toggle autumn leaves";
+    String slashToggleAutumnTemp = slash + "toggle autumn temperature";
+    String slashToggleWinterSnow = slash + "toggle winter snow";
+    String slashToggleWinterTemp = slash + "toggle winter temperature";
+    String slashToggleSpringShowers = slash + "toggle spring showers";
+    String slashToggleSummerTemp = slash + "toggle summer temperature";
+    
+    /*
+    User Commands
+    Other User Commands
+    */
+    String slashHelp = slash + "help";
+    String slashHelpPageOne = slash + "help 1";
+    
     // Starts the season cycle, loops infinitly, unless the plugin is removed or untill it crashes.
     summerSeason();
   }
