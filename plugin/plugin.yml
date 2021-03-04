@@ -1,0 +1,8 @@
+name: All4Seasons
+version: 0.0.1
+description: This is a Minecraft Spigot Plug-in, which imitates the real worlds four seasons!
+author: Lukas-Batema
+contributors: [Lukas-Batema]
+website: http://www.batemadevelopment.com/mcje/server/plugins/All4Seasons.html
+
+main: lukasbatema.mcje.plugin
