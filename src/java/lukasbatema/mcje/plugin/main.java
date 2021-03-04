@@ -50,6 +50,43 @@ public class main {
     String slashHelp = slash + "help";
     String slashHelpPageOne = slash + "help 1";
     
+    // If...else if statement for command syntax
+    if (slashReload) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashHelp) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashHelpPageOne) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashHelpSeason) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashHelpRestart) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashHelpToggle) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashSeasonSummer) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashSeasonSpring) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashSeasonAutumn) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashSeasonWinter) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashRestartSeason) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashToggleAutumnLeaves) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashToggleAutumnTemp) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashToggleWinterSnow) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashToggleWinterTemp) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashToggleSpringShowers) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    } else if (slashToggleSummerTemp) {
+      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+    }
+    
     // Starts the season cycle, loops infinitly, unless the plugin is removed or untill it crashes.
     summerSeason();
   }
