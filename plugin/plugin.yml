@@ -13,7 +13,7 @@ commands:
     description: Change the season.
     aliases: [Season]
     permission: all4seasons.op
-    usage: What season are you even talking abou? Please type only /season <summer|spring|autumn|winter> to change the season!
+    usage: What season are you even talking about? Please type only /season <summer|spring|autumn|winter> to change the season!
   toggle:
     description: Toggle the season's different features
     aliases: [Toggle]
