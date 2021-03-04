@@ -2,7 +2,29 @@ name: All4Seasons
 version: 0.0.1
 description: This is a Minecraft Spigot Plug-in, which imitates the real worlds four seasons!
 author: Lukas-Batema
-contributors: [Lukas-Batema]
-website: http://www.batemadevelopment.com/mcje/server/plugins/All4Seasons.html
+authors: [N/A]
+contributors: [N/A]
+website: http://www.batemadevelopment.com/html5/mcje/server/plugins/All4Seasons.html
 
 main: lukasbatema.mcje.plugin
+
+commands:
+  season:
+    description: Change the season.
+    aliases: [Season]
+    permission: all4seasons.op
+    usage: What season are you even talking abou? Please type only /season <summer|spring|autumn|winter> to change the season!
+  toggle:
+    description: Toggle the season's different features
+    aliases: [Toggle]
+    permission: all4seasons.op
+    usage: |
+      /toggle <seasonfeature>
+      Example: /toggle wintersnow - toggle snow in all biomes (except hot biomes) during winter
+      Example: /toggle autumnleaves - toggle falling leaves during autumn
+
+permissions:
+  all4seasons.op:
+    description: Gives access to all All4Seasons commands
+  all4seasons.standard:
+    description: Gives access to standar user All4Seasons commands
