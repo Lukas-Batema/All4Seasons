@@ -29,4 +29,4 @@ Instagram: @lnbfilms
 
 Discord: GameHogPlays#0119
 
-Twitter: @Lukas-Batema
+Twitter: @batema_lukas
