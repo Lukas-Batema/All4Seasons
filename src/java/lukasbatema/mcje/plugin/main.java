@@ -22,7 +22,12 @@ public class main {
     // Base Plugin
     PluginBase();
     
-    // Config.yml
+    // plugin.yml
+    getName();
+    getVersion();
+    getMain();
+    
+    // config.yml
     getConfig();
     saveConfig();
     
@@ -69,8 +74,10 @@ public class main {
     // If...else if statement for command syntax
     if (slashReload) {
       reloadConfig();
+      getConfig();
+      saveConfig();
     } else if (slashHelp) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("help", "All4Seasons");
     } else if (slashHelpPageOne) {
       System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
     } else if (slashHelpSeason) {
