@@ -19,6 +19,13 @@ import org.bukkit.event;
 
 public class main {
   public static void main(String[] args) {
+    // Base Plugin
+    PluginBase();
+    
+    // Config.yml
+    getConfig();
+    saveConfig();
+    
     /* 
     Commands
     The slash before the command
@@ -61,7 +68,7 @@ public class main {
     
     // If...else if statement for command syntax
     if (slashReload) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      reloadConfig();
     } else if (slashHelp) {
       System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
     } else if (slashHelpPageOne) {
