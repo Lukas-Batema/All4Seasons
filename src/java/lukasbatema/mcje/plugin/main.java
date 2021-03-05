@@ -1,8 +1,9 @@
 // Package of this sector of this plugin.
-package lukasbatema.mcje.plugin;
+package src.java.lukasbatema.mcje.plugin;
 
 // Other imported packages.
 import org.bukkit;
+import org.bukkit.plugin;
 import org.bukkit.block;
 import org.bukkit.block.data;
 import org.bukkit.command;

@@ -6,7 +6,7 @@ authors: [N/A]
 contributors: [N/A]
 website: http://www.batemadevelopment.com/html5/mcje/server/plugins/All4Seasons.html
 
-main: lukasbatema.mcje.plugin
+main: src.java.lukasbatema.mcje.plugin
 
 commands:
   season:
