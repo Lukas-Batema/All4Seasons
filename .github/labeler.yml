@@ -1,22 +1,19 @@
-- any: ['list', 'of', 'globs']
-  all: ['list', 'of', 'globs']
-
 #Add 'repo' label to any root file changes
 repo:
   - ./*
 
 # Add 'test' label to any change to src/java/test/**/* files within the source dir
 test: 
-- any: ['src/java/test/**/*']
+- 'src/java/test/**/*'
 
 # Add 'source' label to any change to src files within the source dir
 source:
-- any: ['src/java/deployed/**/*']
+- 'src/java/deployed/**/*'
 
 # Add 'yml-test' label to any change to /plugin/test/**/* files within the source dir
 yml-test: 
-- any: ['/plugin/test/**/*']
+- '/plugin/test/**/*'
 
 # Add 'yml-source' label to any change to /plugin/test/**/* files within the source dir
 yml-source: 
-- any: ['/plugin/delpoyed/**/*']
+- '/plugin/delpoyed/**/*'
