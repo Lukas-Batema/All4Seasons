@@ -25,7 +25,7 @@ Below, you will find multiple sets of guidelines for multiple things, like contr
 ## Contact
 Email: [lukasbatema@batemadevelopment.com](mailto:lukasbatema@batemadevelopment.com) ***!!! ADDRESS NOT SET-UP YET !!!***
 
-Instagram: @lnbfilms
+Instagram: @batemadevelopment
 
 Discord: GameHogPlays#0119
 
