@@ -2,21 +2,7 @@
 package src.java.test.lukasbatema.mcje.plugin;
 
 // Main imported packages.
-import org.bukkit;
-import org.bukkit.plugin;
-import org.bukkit.block;
-import org.bukkit.block.data;
-import org.bukkit.command;
-import org.bukkit.command.defaults;
-import org.bukkit.attribute;
-import org.bukkit.block.data.type;
-import org.bukkit.advancement;
-import org.bukkit.enchantments;
-import org.bukkit.configuration;
-import org.bukkit.configuration.file;
-import org.bukkit.configuration.serialization;
-import org.bukkit.conversations;
-import org.bukkit.event;
+import org.bukkit.*;
 
 public class main {
   public static void main(String[] args) {
