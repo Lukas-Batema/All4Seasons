@@ -1,4 +1,7 @@
-# Add 'repo' label to any root file changes
+- any: ['list', 'of', 'globs']
+  all: ['list', 'of', 'globs']
+
+#Add 'repo' label to any root file changes
 repo:
   - ./*
 
