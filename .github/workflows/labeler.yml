@@ -11,7 +11,7 @@ jobs:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         
         # Add 'Direct-Plugin-Modifications' to any changes within 'example' folder or any subfolders
-        Direct-Plugin-Modifications: /src/java/lukasbatema/mcje/plugin/main.java
+        Direct-Plugin-Modifications: /src/java/lukasbatema/mcje/plugin/*.java
 
         # Add 'Indirect-Plugin-Modifications' to any file changes within 'example2' folder
         Indirect-Plugin-Modifications: /plugin/*
