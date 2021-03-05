@@ -1,22 +1,19 @@
-#Add 'repo' label to any root file changes
-repo:
+# Add 'documentation' label to any documentation file changes
+documentation:
   - ./*
 
 # Add 'test' label to any change to src/java/test/**/* files within the source dir
-test: 
-- src/java/test/**/*
+test:
+  - ./src/java/test/lukasbatema/mcje/plugin/*.java
 
 # Add 'source' label to any change to src files within the source dir
 source:
-- /src/java/deployed/**/*
+  - ./src/java/deployed/lukasbatema/mcje/plugin/*.java
 
 # Add 'yml-test' label to any change to /plugin/test/**/* files within the source dir
-yml-test: 
-- /plugin/test/**/*
+yml-test:
+  - ./plugin/test/*.yml
 
 # Add 'yml-source' label to any change to /plugin/test/**/* files within the source dir
-yml-source: 
-- /plugin/delpoyed/**/*
-
-documentation:
-- *.*
+yml-source:
+  - ./plugin/delpoyed/*.yml
