@@ -15,5 +15,5 @@ yml-test:
 - any: ['/plugin/test/**/*']
 
 # Add 'yml-source' label to any change to /plugin/test/**/* files within the source dir
-yml-test: 
+yml-source: 
 - any: ['/plugin/delpoyed/**/*']
