@@ -299,32 +299,32 @@ public class main {
   }
   
   static void toggleAutumnLeaves() {
-    String helpToggleAutumnLeavesInfo = "/toggle autumn leaves";
-    System.out.println(helpToggleAutumnLeavesInfo);
+    String implementError = "This feature has not yet beem impemented, please check back in a later update! Thanks.";
+    System.out.println(implementError);
   }
   
   static void toggleAutumnTemp() {
-    String helpToggleAutumnTempInfo = "/toggle autumn temperature";
-    System.out.println(helpToggleAutumnTempInfo);
+    String implementError = "This feature has not yet beem impemented, please check back in a later update! Thanks.";
+    System.out.println(implementError);
   }
   
   static void toggleWinterSnow() {
-    String helpToggleWinterSnowInfo = "/toggle winter snow";
-    System.out.println(helpToggleWinterSnowInfo);
+    String implementError = "This feature has not yet beem impemented, please check back in a later update! Thanks.";
+    System.out.println(implementError);
   }
   
   static void toggleWinterTemp() {
-    String helpToggleWinterTempInfo = "/toggle winter temperature";
-    System.out.println(helpToggleWinterTempInfo);
+    String implementError = "This feature has not yet beem impemented, please check back in a later update! Thanks.";
+    System.out.println(implementError);
   }
   
   static void toggleSpringShowers() {
-    String helpToggleSpringShowersInfo = "/toggle spring showers";
-    System.out.println(helpToggleSpringShowersInfo);
+    String implementError = "This feature has not yet beem impemented, please check back in a later update! Thanks.";
+    System.out.println(implementError);
   }
   
   static void toggleSummerTemp() {
-    String helpToggleSummerTempInfo = "/toggle summer temperature";
-    System.out.println(helpToggleSummerTempInfo);
+    String implementError = "This feature has not yet beem impemented, please check back in a later update! Thanks.";
+    System.out.println(implementError);
   }
 }
