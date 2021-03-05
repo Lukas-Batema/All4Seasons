@@ -41,9 +41,18 @@ commands:
       Example: /restart winter - restarts the day count up to the beginning of the winter season
       
 permissions:
+  all4seasons.*:
+    description: Gives access to all All4Seasons commands
+    default: op
+    children:
+      all4seasons.help: true
+      all4seasons.toggle: true
+      all4seasons.restart: true
+      all4seasons.season: true
   all4seasons.op:
     description: Gives access to all All4Seasons commands
     default: op
+    children:
       all4seasons.help: true
       all4seasons.toggle: true
       all4seasons.restart: true
