@@ -9,7 +9,7 @@ jobs:
     - uses: actions/labeler@main
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        
+        sync-labels:
         # Add 'Direct-Plugin-Modifications' to any changes within 'example' folder or any subfolders
         Direct-Plugin-Modifications: /src/java/lukasbatema/mcje/plugin/*.java
 
