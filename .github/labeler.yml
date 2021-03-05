@@ -4,16 +4,19 @@ repo:
 
 # Add 'test' label to any change to src/java/test/**/* files within the source dir
 test: 
-- 'src/java/test/**/*'
+- src/java/test/**/*
 
 # Add 'source' label to any change to src files within the source dir
 source:
-- 'src/java/deployed/**/*'
+- /src/java/deployed/**/*
 
 # Add 'yml-test' label to any change to /plugin/test/**/* files within the source dir
 yml-test: 
-- '/plugin/test/**/*'
+- /plugin/test/**/*
 
 # Add 'yml-source' label to any change to /plugin/test/**/* files within the source dir
 yml-source: 
-- '/plugin/delpoyed/**/*'
+- /plugin/delpoyed/**/*
+
+documentation:
+- *.*
