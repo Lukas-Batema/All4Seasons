@@ -1,10 +1,10 @@
 src/java/test/lukasbatema/mcje/plugin/*.java linguist-detectable
 src/java/test/lukasbatema/mcje/plugin/*.java -linguist-documentation
 plugin/test/*.yml linguist-detectable
-LICENSE linguist-detectable
-*.md linguist-detectable
+/LICENSE linguist-detectable
+/*.md linguist-detectable
 plugin/test/*.yml -linguist-documentation
 All4Seasons/.github/*.yml -linguist-documentation
 All4Seasons/.github/workflows/*.yml -linguist-documentation
-*.md -linguist-documentation
-LICENSE linguist-documentation
+/*.md -linguist-documentation
+/LICENSE linguist-documentation
