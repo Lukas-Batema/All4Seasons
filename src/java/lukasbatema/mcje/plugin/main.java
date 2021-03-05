@@ -96,7 +96,15 @@ public class main {
     } else if (slashSeasonWinter) {
       System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
     } else if (slashRestartSeason) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      if (season == "summer") {
+        summerSeason();
+      } else if (season == "spring") {
+        springSeason();
+      } else if (season == "autumn") {
+        autumnSeason();
+      } else if (season == "winter") {
+        winterSeason();
+      }
     } else if (slashToggleAutumnLeaves) {
       System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
     } else if (slashToggleAutumnTemp) {
@@ -116,6 +124,8 @@ public class main {
   }
   
   static void summerSeason() {
+    // Caller
+    String season = "summer";
     // How many total ticks are in a day.
     double dayLength = 12000;
     
@@ -146,6 +156,9 @@ public class main {
   }
     
   static void springSeason() {
+    // Caller
+    String season = "spring";
+    
     // How many total ticks are in a day.
     double dayLength = 12000;
     
@@ -176,6 +189,9 @@ public class main {
   }
     
   static void autumnSeason() {
+    // Caller
+    String season = "autumn";
+    
     // How many total ticks are in a day.
     double dayLength = 12000;
     
@@ -206,6 +222,9 @@ public class main {
   }
     
   static void winterSeason() {
+    // Caller
+    String season = "winter";
+    
     // How many total ticks are in a day.
     double dayLength = 12000;
     
