@@ -22,9 +22,34 @@ commands:
       /toggle <seasonfeature>
       Example: /toggle wintersnow - toggle snow in all biomes (except hot biomes) during winter
       Example: /toggle autumnleaves - toggle falling leaves during autumn
-
+  help:
+    description: The help section!
+    aliases: [Help]
+    permission: all4seasons.standard
+    usage: |
+      /help <command>
+      Example: /help toggle - information on the toggle command
+      /help <page>
+      Example: /help 1 - goes to the page specified in the help section
+  restart:
+    description: Restarts the current season.
+    aliases: [Restart]
+    permission: all4seasons.op
+    usage: |
+      /restart <season>
+      Example: /restart summer - restarts the day count up to the beginning of the summer season
+      Example: /restart winter - restarts the day count up to the beginning of the winter season
+      
 permissions:
   all4seasons.op:
     description: Gives access to all All4Seasons commands
+    default: op
+      all4seasons.help: true
+      all4seasons.toggle: true
+      all4seasons.restart: true
+      all4seasons.season: true
   all4seasons.standard:
     description: Gives access to standar user All4Seasons commands
+    default: true
+    children:
+      all4seasons.help: true
