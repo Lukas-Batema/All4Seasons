@@ -45,20 +45,35 @@ permissions:
     description: Gives access to all All4Seasons commands
     default: op
     children:
-      all4seasons.help: true
-      all4seasons.toggle: true
-      all4seasons.restart: true
-      all4seasons.season: true
+      all4seasons.op.help: true
+      all4seasons.op.toggle: true
+      all4seasons.op.restart: true
+      all4seasons.op.season: true
   all4seasons.op:
     description: Gives access to all All4Seasons commands
     default: op
     children:
-      all4seasons.help: true
-      all4seasons.toggle: true
-      all4seasons.restart: true
-      all4seasons.season: true
+      all4seasons.op.help: true
+      all4seasons.op.toggle: true
+      all4seasons.op.restart: true
+      all4seasons.op.season: true
   all4seasons.standard:
     description: Gives access to standar user All4Seasons commands
     default: true
     children:
-      all4seasons.help: true
+      all4seasons.standard.help: true  
+  all4seasons.op.help:
+    description: Help command for All4Seasons
+    default: true
+  all4seasons.standard.help:
+    description: Help command for All4Seasons
+    default: true
+  all4seasons.op.toggle:
+    description: Toggle command for All4Seasons
+    default: true
+  all4seasons.op.restart:
+    description: Season restart command for All4Seasons
+    default: true
+  all4seasons.op.season:
+    description: Season switcher command for All4Seasons
+    default: true
