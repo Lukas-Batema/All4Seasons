@@ -304,27 +304,27 @@ public class main {
   }
   
   static void toggleAutumnTemp() {
-    String implementError = "This feature has not yet beem impemented, please check back in a later update! Thanks.";
+    String implementError = "This feature has not yet beem impelemented, please check back in a later update! Thanks.";
     System.out.println(implementError);
   }
   
   static void toggleWinterSnow() {
-    String implementError = "This feature has not yet beem impemented, please check back in a later update! Thanks.";
+    String implementError = "This feature has not yet beem impelemented, please check back in a later update! Thanks.";
     System.out.println(implementError);
   }
   
   static void toggleWinterTemp() {
-    String implementError = "This feature has not yet beem impemented, please check back in a later update! Thanks.";
+    String implementError = "This feature has not yet beem impelemented, please check back in a later update! Thanks.";
     System.out.println(implementError);
   }
   
   static void toggleSpringShowers() {
-    String implementError = "This feature has not yet beem impemented, please check back in a later update! Thanks.";
+    String implementError = "This feature has not yet beem impelemented, please check back in a later update! Thanks.";
     System.out.println(implementError);
   }
   
   static void toggleSummerTemp() {
-    String implementError = "This feature has not yet beem impemented, please check back in a later update! Thanks.";
+    String implementError = "This feature has not yet beem impelemented, please check back in a later update! Thanks.";
     System.out.println(implementError);
   }
 }
