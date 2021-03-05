@@ -1,12 +1,19 @@
-name: "Pull Request Labeler"
-on:
-- pull_request_target
+# Add 'repo' label to any root file changes
+repo:
+  - ./*
 
-jobs:
-  triage:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/labeler@main
-      with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        sync-labels:
+# Add 'test' label to any change to src/java/test/**/* files within the source dir
+test: 
+- any: ['src/java/test/**/*']
+
+# Add 'source' label to any change to src files within the source dir
+source:
+- any: ['src/java/deployed/**/*']
+
+# Add 'yml-test' label to any change to /plugin/test/**/* files within the source dir
+yml-test: 
+- any: ['/plugin/test/**/*']
+
+# Add 'yml-source' label to any change to /plugin/test/**/* files within the source dir
+yml-test: 
+- any: ['/plugin/delpoyed/**/*']
