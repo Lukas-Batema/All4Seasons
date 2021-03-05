@@ -23,7 +23,9 @@ Below, you will find multiple sets of guidelines for multiple things, like contr
 - [ ] The issue must be filled in as much as possible, with the "optional fields" only filled out if needed in that current issue/feature request
 - [ ] All general contributing guidelines also apply
 ## Contact
-Email: [lukasbatema@batemadevelopment.com](mailto:lukasbatema@batemadevelopment.com) ***!!! ADDRESS NOT SET-UP YET !!!***
+Email: [lukasbatema@batemadevelopment.com](mailto:lukasbatema@batemadevelopment.com) 
+
+***!!! IMPORTANT: THE EMAIL ADDRESS IS NOT SET-UP YET !!!***
 
 Instagram: @batemadevelopment
 
