@@ -1,24 +1,24 @@
 # Add 'documentation' label to any documentation file changes
 documentation:
-  - /.gitignore
-  - /.gitattributes
-  - /README.md
-  - /LICENSE
-  - /.github/*/*.*
-  - /.github/*/*/*.*
+  - .gitignore
+  - .gitattributes
+  - README.md
+  - LICENSE
+  - .github/*/*.*
+  - .github/*/*/*.*
   
 # Add 'test' label to any change to src/java/test/**/* files within the source dir
 test:
-  - /src/java/test/lukasbatema/mcje/plugin/*.java
+  - src/java/test/lukasbatema/mcje/plugin/*.java
 
 # Add 'source' label to any change to src files within the source dir
 source:
-  - /src/java/deployed/lukasbatema/mcje/plugin/*.java
+  - src/java/deployed/lukasbatema/mcje/plugin/*.java
 
 # Add 'yml-test' label to any change to /plugin/test/**/* files within the source dir
 yml-test:
-  - /plugin/test/*.yml
+  - plugin/test/*.yml
 
 # Add 'yml-source' label to any change to /plugin/test/**/* files within the source dir
 yml-source:
-  - /plugin/delpoyed/*.yml
+  - plugin/delpoyed/*.yml
