@@ -79,44 +79,63 @@ public class main {
       saveConfig();
     } else if (slashHelp) {
       PluginCommand("help", "All4Seasons");
+      help();
     } else if (slashHelpPageOne) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("help 1", "All4Seasons");
+      helpPageOne();
     } else if (slashHelpSeason) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("help season", "All4Seasons");
+      helpSeason();
     } else if (slashHelpRestart) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("help restart", "All4Seasons");
+      helpRestart();
     } else if (slashHelpToggle) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("help toggle", "All4Seasons");
+      helpToggle();
     } else if (slashSeasonSummer) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("season summer", "All4Seasons");
+      seasonSummer();
     } else if (slashSeasonSpring) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("season spring", "All4Seasons");
+      seasonSpring();
     } else if (slashSeasonAutumn) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("season autumn", "All4Seasons");
+      seasonAutumn();
     } else if (slashSeasonWinter) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("season winter", "All4Seasons");
+      seasonWinter();
     } else if (slashRestartSeason) {
       if (season == "summer") {
+        PluginCommand("season summer", "All4Seasons");
         summerSeason();
       } else if (season == "spring") {
+        PluginCommand("season spring", "All4Seasons");
         springSeason();
       } else if (season == "autumn") {
+        PluginCommand("season autumn", "All4Seasons");
         autumnSeason();
       } else if (season == "winter") {
+        PluginCommand("season winter", "All4Seasons");
         winterSeason();
       }
     } else if (slashToggleAutumnLeaves) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("toggle autumn leaves", "All4Seasons");
+      toggleAutumnLeaves();
     } else if (slashToggleAutumnTemp) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("toggle autumn temperature", "All4Seasons");
+      toggleAutumnTemp();
     } else if (slashToggleWinterSnow) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("toggle winter snow", "All4Seasons");
+      toggleWinterSnow();
     } else if (slashToggleWinterTemp) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("toggle winter temperature", "All4Seasons");
+      toggleWinterTemp();
     } else if (slashToggleSpringShowers) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("toggle spring showers", "All4Seasons");
+      toggleSpringShowers();
     } else if (slashToggleSummerTemp) {
-      System.out.println("Check back later for updates, as this feature is not implemented yet. Thank you!");
+      PluginCommand("toggle summer temperature", "All4Seasons");
+      toggleSummerTemp();
     }
     
     // Starts the season cycle, loops infinitly, unless the plugin is removed or untill it crashes.
@@ -251,6 +270,50 @@ public class main {
     
     // Run the summerSeason() function, since winterSeason() is the last called season function, after the while loop finishes.
     summerSeason();
+    
+  }
+  
+  static void help() {
+    
+  }
+  
+  static void helpPageOne() {
+    
+  }
+  
+  static void helpSeason() {
+    
+  }
+  
+  static void helpRestart() {
+    
+  }
+  
+  static void helpToggle() {
+    
+  }
+  
+  static void toggleAutumnLeaves() {
+    
+  }
+  
+  static void toggleAutumnTemp() {
+    
+  }
+  
+  static void toggleWinterSnow() {
+    
+  }
+  
+  static void toggleWinterTemp() {
+    
+  }
+  
+  static void toggleSpringShowers() {
+    
+  }
+  
+  static void toggleSummerTemp() {
     
   }
 }
