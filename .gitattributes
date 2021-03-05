@@ -1,4 +1,4 @@
 /src/java/test/lukasbatema/mcje/plugin/*.java -linguist-documentation
 /plugin/test/*.yml -linguist-documentation
-/All4Seasons/.github/*.yml
-All4Seasons/.github/workflows/*.yml
+/All4Seasons/.github/*.yml -linguist-documentation
+/All4Seasons/.github/workflows/*.yml -linguist-documentation
