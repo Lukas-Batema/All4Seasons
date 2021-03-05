@@ -1,7 +1,7 @@
 // Package of this sector of this plugin.
 package src.java.lukasbatema.mcje.plugin;
 
-// Other imported packages.
+// Main imported packages.
 import org.bukkit;
 import org.bukkit.plugin;
 import org.bukkit.block;
@@ -274,46 +274,57 @@ public class main {
   }
   
   static void help() {
-    
+    String helpInfo = "The command used for help. Type either /help <command> OR /help <page> for info on the command(s).";
+    System.out.println(helpInfo);
   }
   
   static void helpPageOne() {
-    
+    String helpFirstPage = " || " + "/help - This command!" + " || " +  "/toggle - toggle different season features." + " || " + "/restart - restart the day count of the season specified" + " || " + "/reload - reloads this plugin" + " || " + "/season - jump to the specified season" + " || ";
+    System.out.println(helpFirstPage);
   }
   
   static void helpSeason() {
-    
+    String helpSeasonInfo = "/season <summer|spring|autumn|winter>";
+    System.out.println(helpSeasonInfo);
   }
   
   static void helpRestart() {
-    
+    String helpRestartInfo = "/restart <summer|spring|autumn|winter>";
+    System.out.println(helpRestartInfo);
   }
   
   static void helpToggle() {
-    
+    String helpToggleInfo = "/toggle <season> <feature>";
+    System.out.println(helpToggleInfo);
   }
   
   static void toggleAutumnLeaves() {
-    
+    String helpToggleAutumnLeavesInfo = "/toggle autumn leaves";
+    System.out.println(helpToggleAutumnLeavesInfo);
   }
   
   static void toggleAutumnTemp() {
-    
+    String helpToggleAutumnTempInfo = "/toggle autumn temperature";
+    System.out.println(helpToggleAutumnTempInfo);
   }
   
   static void toggleWinterSnow() {
-    
+    String helpToggleWinterSnowInfo = "/toggle winter snow";
+    System.out.println(helpToggleWinterSnowInfo);
   }
   
   static void toggleWinterTemp() {
-    
+    String helpToggleWinterTempInfo = "/toggle winter temperature";
+    System.out.println(helpToggleWinterTempInfo);
   }
   
   static void toggleSpringShowers() {
-    
+    String helpToggleSpringShowersInfo = "/toggle spring showers";
+    System.out.println(helpToggleSpringShowersInfo);
   }
   
   static void toggleSummerTemp() {
-    
+    String helpToggleSummerTempInfo = "/toggle summer temperature";
+    System.out.println(helpToggleSummerTempInfo);
   }
 }
