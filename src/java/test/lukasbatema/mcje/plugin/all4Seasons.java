@@ -4,7 +4,7 @@ package src.java.test.lukasbatema.mcje.plugin;
 // Main imported packages.
 import org.bukkit.*;
 
-public class main {
+public class all4Seasons {
   public static void main(String[] args) {
     // Base Plugin
     PluginBase();
